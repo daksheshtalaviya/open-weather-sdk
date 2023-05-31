@@ -1,0 +1,11 @@
+framework module OpenWeatherSDK {
+  umbrella header "OpenWeatherSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module OpenWeatherSDK.Swift {
+  header "OpenWeatherSDK-Swift.h"
+  requires objc
+}
