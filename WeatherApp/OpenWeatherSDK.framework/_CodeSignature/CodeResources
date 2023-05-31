@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/OpenWeatherSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		jO06wjmj8As2r/ENjqJkYHOEapU=
+		/H/YNWdfLDBlV6fC9sOg6bQeG/4=
 		</data>
 		<key>Modules/OpenWeatherSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/OpenWeatherSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+KGxNq5yt87j2RD+P3M7xlFytjk=
+		4a+piD1xFgWJxqykJE9LQRR7rSA=
 		</data>
 		<key>Modules/OpenWeatherSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8fAtjc60cTuZipq5BfhcnOLeZVU=
+		mhbesr4GxzK9IVuQG4X0Vm76geU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -57,7 +57,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rZPgoikbWcQtsIpr/VeYPAMaU7JGHwIstlyXqw/bppA=
+			K1K8fvTvAl6N546Qyaaj0lKJ/l/kE6ye4ZYxOtL/Kkw=
 			</data>
 		</dict>
 		<key>Modules/OpenWeatherSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lqI0qc0I94u9a7P2x7g57Ksve4PW7mmgR6vU1YdqJyI=
+			+uGNmJehfEvcrvOq3M2mnXpyNsxPYAoGajDOn/Uy3iE=
 			</data>
 		</dict>
 		<key>Modules/OpenWeatherSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F+3Q0vhHdpqSpPn714RnfBFpestQ0SiPJBEImz5kb54=
+			6Fhac1zJaJhPYNFAx3UbKlIv2IDgKjgCWeD0o/euDu0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

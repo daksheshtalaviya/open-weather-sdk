@@ -16,8 +16,8 @@
 		5280F5722A228603007AD662 /* WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F5712A228603007AD662 /* WeatherAppTests.swift */; };
 		5280F57C2A228603007AD662 /* WeatherSDKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F57B2A228603007AD662 /* WeatherSDKUITests.swift */; };
 		5280F57E2A228603007AD662 /* WeatherSDKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5280F57D2A228603007AD662 /* WeatherSDKUITestsLaunchTests.swift */; };
-		52B04EAF2A27BB7B00ED9741 /* OpenWeatherSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B04EAD2A27BB7600ED9741 /* OpenWeatherSDK.framework */; };
-		52B04EB02A27BB7B00ED9741 /* OpenWeatherSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52B04EAD2A27BB7600ED9741 /* OpenWeatherSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52B04EB32A27BEFC00ED9741 /* OpenWeatherSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B04EB12A27BEEE00ED9741 /* OpenWeatherSDK.framework */; };
+		52B04EB42A27BEFC00ED9741 /* OpenWeatherSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52B04EB12A27BEEE00ED9741 /* OpenWeatherSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		52B218BA2A265FDC00D86C5C /* DKLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B218B12A265FDC00D86C5C /* DKLog.swift */; };
 		52B219702A266EB000D86C5C /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B219682A266EB000D86C5C /* Optional+Extensions.swift */; };
 		52B219742A266ECF00D86C5C /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B219732A266ECF00D86C5C /* Double+Extensions.swift */; };
@@ -48,7 +48,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				52B04EB02A27BB7B00ED9741 /* OpenWeatherSDK.framework in Embed Frameworks */,
+				52B04EB42A27BEFC00ED9741 /* OpenWeatherSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,7 +69,7 @@
 		5280F5772A228603007AD662 /* WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5280F57B2A228603007AD662 /* WeatherSDKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSDKUITests.swift; sourceTree = "<group>"; };
 		5280F57D2A228603007AD662 /* WeatherSDKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSDKUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		52B04EAD2A27BB7600ED9741 /* OpenWeatherSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenWeatherSDK.framework; sourceTree = "<group>"; };
+		52B04EB12A27BEEE00ED9741 /* OpenWeatherSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenWeatherSDK.framework; sourceTree = "<group>"; };
 		52B218B12A265FDC00D86C5C /* DKLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKLog.swift; sourceTree = "<group>"; };
 		52B219682A266EB000D86C5C /* Optional+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+Extensions.swift"; sourceTree = "<group>"; };
 		52B219732A266ECF00D86C5C /* Double+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52B04EAF2A27BB7B00ED9741 /* OpenWeatherSDK.framework in Frameworks */,
+				52B04EB32A27BEFC00ED9741 /* OpenWeatherSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +182,7 @@
 		52961E282A2537D40081C694 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				52B04EAD2A27BB7600ED9741 /* OpenWeatherSDK.framework */,
+				52B04EB12A27BEEE00ED9741 /* OpenWeatherSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
