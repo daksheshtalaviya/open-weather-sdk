@@ -2,8 +2,10 @@
 # Open Weather SDK
 
 The Open Weather SDK is a Swift library that provides functionality to retrieve weather information from an API. It allows you to get the current weather for a given location, as well as the weather forecast for a specified number of days.
-
-
+#
+- [WeatherApp](https://github.com/daksheshtalaviya/open-weather-sdk/tree/main/WeatherApp) is used for demo.
+- [WeatherSDK](https://github.com/daksheshtalaviya/open-weather-sdk/tree/main/WeatherSDK) is used for SDK.
+#
 - [Features](#features)
 - [Installation](#installation)
 - [Requirements](#requirements)
@@ -90,8 +92,8 @@ The unit tests cover various scenarios to ensure the correctness and reliability
 ## Documentation
 
 - Locate the [Documentation](https://github.com/daksheshtalaviya/open-weather-sdk/tree/main/Documentation) folder in the root directory of the project.
-- In the [Documentation](https://github.com/daksheshtalaviya/open-weather-sdk/tree/main/Documentation) folder, find the file named [OpenWeatherSDK.doccarchive](https://github.com/daksheshtalaviya/open-weather-sdk/tree/main/Documentation/OpenWeatherSDK.doccarchive). This file contains the documentation for the Open Weather SDK.
-- Open the [OpenWeatherSDK.doccarchive](https://github.com/daksheshtalaviya/open-weather-sdk/tree/main/Documentation/OpenWeatherSDK.doccarchive) file using Xcode, as it is required for viewing DocC files.
+- In the `Documentation` folder, find the file named [OpenWeatherSDK.doccarchive](https://github.com/daksheshtalaviya/open-weather-sdk/tree/main/Documentation/OpenWeatherSDK.doccarchive). This file contains the documentation for the Open Weather SDK.
+- Open the `OpenWeatherSDK.doccarchive` file using Xcode, as it is required for viewing DocC files.
 - Ensure that the `Swift` language is selected in Xcode for proper interpretation of the documentation.
 - Once the file is opened, you will be able to access the `documentation` for `each class, function, and property` included in the [Open Weather SDK](https://github.com/daksheshtalaviya/open-weather-sdk/tree/main/WeatherSDK).
 
