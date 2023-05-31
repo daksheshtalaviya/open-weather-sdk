@@ -4,14 +4,22 @@
 The Open Weather SDK is a Swift library that provides functionality to retrieve weather information from an API. It allows you to get the current weather for a given location, as well as the weather forecast for a specified number of days.
 
 
-- [Installation](#installation)
 - [Features](#features)
+- [Installation](#installation)
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [Running the Tests](#running-the-tests)
 - [Documentation](#documentation)
 
+## Features
+
+- [x] Get Today's weather information
+- [x] Get 5-day / 3-hour forecast weather information
+
 ## Installation
+### Manually
+
+If you prefer not to use any of the aforementioned dependency managers, you can integrate `OpenWeatherSDK.framework` into your project manually.
 
 To install the Open Weather SDK, follow these steps:
 
@@ -19,17 +27,11 @@ To install the Open Weather SDK, follow these steps:
 
 1. Ensure that Xcode is installed on your system.
 2. Download the SDK package from the official website or repository.
-3. Extract the contents of the package.
-4. Open your Xcode project.
-5. Drag and drop the Open Weather SDK files into your project's file structure.
-6. Make sure the SDK is properly linked and configured in your project settings.
+3. Open your Xcode project.
+4. Drag and drop the `OpenWeatherSDK.framework` file into your project's file structure.
+5. Make sure the SDK is properly linked and configured in your project settings.
 
 ```
-
-## Features
-
-- [x] Get Today's weather information
-- [x] Get 5-day / 3-hour forecast weather information
 
 ## Requirements
 
