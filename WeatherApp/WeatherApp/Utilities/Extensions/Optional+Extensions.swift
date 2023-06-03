@@ -1,6 +1,6 @@
 //
 //  Optional+Extensions.swift
-//  WeatherSDK
+//  WeatherApp
 //
 //  Created by Dksh on 28/05/23.
 //
