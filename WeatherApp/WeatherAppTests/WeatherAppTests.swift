@@ -7,7 +7,7 @@
 
 import XCTest
 @testable import WeatherApp
-import WeatherSDK
+import OpenWeatherSDK
 
 final class WeatherAppTests: XCTestCase {
     
@@ -23,14 +23,14 @@ final class WeatherAppTests: XCTestCase {
         super.tearDown()
     }
     
-    /// This test case checks if the API key used by the WeatherSDK is valid
+    /// This test case checks if the API key used by the OpenWeatherSDK is valid
     func testAPIKeyIsValid() {
-        XCTAssertNotNil(WeatherSDK.isValidAPIKey())
+        XCTAssertNotNil(OpenWeatherSDK.isValidAPIKey())
     }
     
     /// This test case checks if the API request for today's weather returns a valid weather object
     func testGetWeatherForToday() {
-        WeatherSDK.configure(withAPIKey: WeatherAPIKey)
+        OpenWeatherSDK.configure(withAPIKey: WeatherAPIKey)
         
         weatherService.getWeatherForToday(location: "London") { result in
             switch result {
@@ -46,7 +46,7 @@ final class WeatherAppTests: XCTestCase {
     
     /// This test case checks if the temperature value in the weather response falls within a valid range
     func testTemperatureIsValid() {
-        WeatherSDK.configure(withAPIKey: WeatherAPIKey)
+        OpenWeatherSDK.configure(withAPIKey: WeatherAPIKey)
         
         weatherService.getWeatherForToday(location: "London") { result in
             switch result {
@@ -66,7 +66,7 @@ final class WeatherAppTests: XCTestCase {
     
     /// This test case validates if the location name in the weather response matches the requested location
     func testLocationResponseValidation() {
-        WeatherSDK.configure(withAPIKey: WeatherAPIKey)
+        OpenWeatherSDK.configure(withAPIKey: WeatherAPIKey)
         
         let locationName = "Ahmedabad"
         weatherService.getWeatherForToday(location: locationName) { result in
@@ -83,7 +83,7 @@ final class WeatherAppTests: XCTestCase {
     
     /// This test case checks if the API request for weather forecast returns the expected forecast data
     func testGetWeatherForForecast() {
-        WeatherSDK.configure(withAPIKey: WeatherAPIKey)
+        OpenWeatherSDK.configure(withAPIKey: WeatherAPIKey)
         
         weatherService.getWeatherForecast(location: "London", timestamps: 7) { result in
             switch result {
@@ -100,7 +100,7 @@ final class WeatherAppTests: XCTestCase {
     /// This test case checks if the API request for weather forecast fails due to an invalid API key
     func testGetWeatherForForecastWithInvalidAPIKey() {
         // Set an invalid API key
-        WeatherSDK.configure(withAPIKey: "INVALID_API_KEY")
+        OpenWeatherSDK.configure(withAPIKey: "INVALID_API_KEY")
         
         weatherService.getWeatherForecast(location: "London", timestamps: 7) { result in
             switch result {
@@ -116,8 +116,8 @@ final class WeatherAppTests: XCTestCase {
     
     /// This test case checks if the API request for weather forecast fails due to a timeout
     func testAPIRequestTimeoutFailed() {
-        WeatherSDK.configure(withAPIKey: WeatherAPIKey)
-
+        OpenWeatherSDK.configure(withAPIKey: WeatherAPIKey)
+        
         let expectation = self.expectation(description: "Weather forecast response received")
         
         weatherService.getWeatherForecast(location: "London", timestamps: 7) { result in
